@@ -1,0 +1,47 @@
+body {
+	font: 16px Verdana, sans-serif;
+	background-color: #eee;
+}
+#container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 30px auto;
+}
+h1 {
+	text-align: center;
+}
+.alert {
+	color: red;
+	text-align: center;
+	padding: 20px;
+	display: none;
+}
+.item {
+	box-shadow: 0 0 10px #666;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: auto;
+	background-color: #fff;
+}
+.item img {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.item .title {
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.item .director, .item .actors {
+	margin-top: 10px;
+}
+.item .country, .item .year {
+	margin-top: 10px;
+	font-style: italic;
+}
+.item .genre {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 90%;
+}
